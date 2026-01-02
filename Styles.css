@@ -1,6 +1,52 @@
 body {
+  font-family: monospace;
+}
+
+header {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/baseball-1.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-size: 80px;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  color: green;
+  text-decoration: none;
+  margin: 0;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  letter-spacing: 3px;
 }
