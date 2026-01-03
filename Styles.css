@@ -204,3 +204,41 @@ header a {
   margin-top: 10px;
   color: #bbb;
 }
+.stats-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.table-title {
+  text-align: center;
+  color: #004d2c;
+  margin-bottom: 20px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.player-table th,
+.player-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.player-table th {
+  background-color: #004d2c;
+  color: white;
+}
+
+.player-table tr:hover {
+  background-color: #f1f1f1;
+}
