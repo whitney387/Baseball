@@ -50,3 +50,59 @@ header a {
   background-color: white;
   letter-spacing: 3px;
 }
+
+.site-footer {
+  background-color: #1a1a1a; /* Dark charcoal background */
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.site-footer h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #f4f4f4;
+}
+
+.site-footer p {
+  color: #bbb;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* The List Styling */
+.footer-links {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0 auto 30px auto;
+  display: inline-block;
+  text-align: left; /* Aligns text of the list items */
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links li a {
+  color: #ff4d4d; /* Baseball Stitch Red */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #ffffff; /* Turns white when hovered */
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 0.85rem;
+}
